@@ -1,3 +1,20 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    {left: "$$", right: "$$", display: true},
+                    {left: "\\(", right: "\\)", display: false}
+                ]
+            });
+        });
+    </script>
+</head>
+
+
 Copy from [here](https://www.luogu.com.cn/article/ubd4ucn3)。
 
 以下这份数学笔记是笔者从 2023 年 7 月开始记录至现在的，`.md` 源文件达到了 $152$ KB。目前笔者高二，所学知识尚未完善，部分知识点未齐全，请读者见谅。
